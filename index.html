@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Jokenpô</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jokenpô</h1>
+        <p>Escolha a sua jogada e desafie o computador!</p>
+
+        <!-- Área de escolhas do jogador -->
+        <div class="opcoes">
+            <button id="pedra" class="btn-jogada">
+                <i class="fas fa-hand-back-fist fa-2x"></i><br>Pedra
+            </button>
+            <button id="papel" class="btn-jogada">
+                <i class="fas fa-hand fa-2x"></i><br>Papel
+            </button>
+            <button id="tesoura" class="btn-jogada">
+                <i class="fas fa-hand-scissors fa-2x"></i><br>Tesoura
+            </button>
+        </div>
+
+        <!-- Onde o resultado vai aparecer -->
+        <div id="resultado" class="area-resultado">
+            <p>Faça sua escolha para começar!</p>
+        </div>
+
+        <!-- Botão para zerar o jogo -->
+        <button id="reiniciar" class="btn-reiniciar" style="display: none;">Jogar Novamente</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
